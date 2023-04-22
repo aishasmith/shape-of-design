@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of reset */
+
+/*======= ADD STYLE RULES BELOW THIS LINE =======*/
+
+/*--------------------*Layout*-------------------------------*/
+
+body {
+    
+    font-family: "Lato", Calibri, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #E5EDF6;
+    color: #090909;
+}
+
+main {
+  width: 70%;
+  max-width: 1000px;
+  min-width: 450px;
+  padding: 4.0em 3.0em; 
+  border: 1px solid #C0C0C0;
+  margin: 1.0em auto; 
+  background-color: #FFF;
+}
+
+/*---------------------*Typography*-------------------------*/
+
+h1, h2 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+  color: #194A82;
+}
+h1 {
+  font-size: 4.0em;
+}
+h2 {
+  font-size: 2.6em;
+  line-height: 2.0em;
+  margin-top: 1.0em;
+}
+
+p {
+    margin-top: 0.5em;
+    margin-bottom: inherit;
+    line-height: 1.4em;
+}
+
+em, i {
+  font-style: italic;
+}
+/*------------------------*Navigation*------------------------*/
+nav ul {
+  margin-top: 0.5em;
+}
+nav li {
+  display: inline-block;
+}
+nav li + li {
+	padding-left: 0.5em;
+	margin-left: 0.5em;
+    margin-top: 2.0em;
+    border-left: 2px solid #C0C0C0;
+}
+
+/*------------------------*link styling*---------------------*/
+
+a {
+  text-decoration: none;
+  color: #cc0000;
+}
+a:link {
+  color: #CC0000;
+}
+a:visited {
+  color: #AA0000;
+}
+
+a:hover {
+  color: #EE0000;
+  padding-bottom: 0.1em;
+  border-bottom: 0.1em dotted #333333; 
+}
+
+.author {
+    
+    text-align: right;
+    font-style: italic;
+    line-height: 1.0em;
+}
+
+/*-------------------------*images*-------------------------*/
+
+img {
+  float:right;
+  margin: auto;
+  width: 40%;
+  height: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
